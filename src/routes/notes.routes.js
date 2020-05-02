@@ -19,7 +19,7 @@ router.get('/notes', renderNotes);
 
 router.get('/notes/edit/:id', renderEditForm );
 
-router.put('/notes/edit/:id', updateNote);
+router.put('/notes/editar/:id', updateNote);
 
 router.delete('/notes/delete/:id', deleteNote);
 
