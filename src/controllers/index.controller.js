@@ -1,11 +1,12 @@
+//definimos un objeto
 const indexCtrl = {};
-
-indexCtrl.renderIndex =(req, res) => {
+//dentro del objeto creamos funciones que nos dara las rutas a las paginas
+indexCtrl.renderIndex = (req, res)=> {
     res.render('index')
 };
 
-indexCtrl.renderAbout =(req,res) => {
+indexCtrl.renderAbout = (req, res)=> {
     res.render('about')
 };
-
+//exportamos el objeto
 module.exports = indexCtrl;
