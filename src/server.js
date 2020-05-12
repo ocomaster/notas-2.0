@@ -1,4 +1,4 @@
-//Vamos a utlizar el framework del servidor
+//Vamos a utlizar el framework del servidor new
 const express = require('express');
 const exphbs = require('express-handlebars');
 const path = require('path');
